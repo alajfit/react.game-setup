@@ -20,7 +20,7 @@ const CannonPipe = props => {
             x: -halfMuzzle,
             y: -yBasis
         },
-        initalControlPoint: {
+        initialControlPoint: {
             x: -40,
             y: height * 1.7
         },
@@ -49,7 +49,7 @@ const CannonPipe = props => {
     )
 }
 
-CannonPipe.PropTypes = {
+CannonPipe.propTypes = {
     rotation: PropTypes.number.isRequired
 }
 
