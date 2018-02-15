@@ -1,6 +1,6 @@
 import { calculateAngle } from '../utils/formulas'
 
-function moveObjects (state, action) {
+function moveObjects(state, action) {
     if (!action.movePosition) return state
     const { x, y } = action.mousePosition
     const angle = calculateAngle(0, 0, x, y)
